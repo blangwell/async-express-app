@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+div {
+  background-color:#138351;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+a { 
+  color: #90dbba
+}
+a:hover {
+  color: white;
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: #138351;
+}

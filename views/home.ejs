@@ -1,0 +1,11 @@
+<% cannabis.forEach(c => { %>
+    <div>
+        <h2><%= c.strain %></h2> 
+        <p><%= c.type %></p>
+        <!-- <form action="/cannabis/<%= c._id %>">
+            <input type="hidden" name="cannabisId" value="<%= c._id %>">
+            <input type="submit" value="See more details">
+        </form> -->
+        <a href="/cannabis/<%= c._id %>">See more</a>
+    </div>
+<% }) %>
